@@ -1,5 +1,5 @@
 import {assert} from 'chai';
-import pair_sum from '../pair_sum';
+import pair_sum from '../src/pair_sum';
 
 
 describe('pair_sum', function(){
