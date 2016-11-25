@@ -36,3 +36,15 @@ Output:
 
 **Source**: [find_missing_number.js](src/find_missing_number.js)  
 **Test**: [find_missing_number_test.js](test/find_missing_number_test.js)
+
+
+## Largest Continuous Sum
+Problem  
+Given an array of integers (positive and negative) find the largest continuous sum.  
+Input:
+`large_cont_sum([1,2,-1,3,4,10,10,-1])`  
+Output:
+`29`
+
+**Source**: [large_cont_sum.js](src/large_cont_sum.js)  
+**Test**: [large_cont_sum_test.js](test/large_cont_sum_test.js)
