@@ -48,3 +48,23 @@ Output:
 
 **Source**: [large_cont_sum.js](src/large_cont_sum.js)  
 **Test**: [large_cont_sum_test.js](test/large_cont_sum_test.js)
+
+
+
+## Sentence Reversal
+Problem  
+Given a string of words, reverse all the words. For example:  
+Input:
+`'This is the best'`
+
+Return:
+`'best the is This'`
+
+As part of this exercise you should remove all leading and trailing whitespace. So that inputs such as:
+`'  space here'`  and `'space here      '`
+
+both become:
+`'here space'`
+
+**Source**: [reverse_words.js](src/reverse_words.js)  
+**Test**: [reverse_words_test.js](test/reverse_words_test.js)
