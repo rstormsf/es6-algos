@@ -12,12 +12,12 @@ describe('find_missing_number', function(){
     shuffled_array.splice(random_index, 1);
     shuffled_array = shuffle(shuffled_array);
     const out = find_missing_number(array, shuffled_array);
-    assert.deepEqual(out, [removed_number]);
+    assert.deepEqual([removed_number], out);
   });
 
   it('works with negative numbers', function(){
     const out = find_missing_number([1,5,4,-44,3,-5,3, 100, -1235], [1,-44,4,3,3, -1235]);
-    assert.deepEqual(out, [5,-5, 100]);
+    assert.deepEqual([5,-5, 100], out);
   });
 
 })
