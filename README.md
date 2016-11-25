@@ -80,3 +80,13 @@ The function should also be case sensitive, so that a string `'AAAaaa'` returns 
 
 **Source**: [string_compression.js](src/string_compression.js)  
 **Test**: [string_compression_test.js](test/string_compression_test.js)
+
+
+
+## Unique Characters in String
+Problem  
+Given a string, determine if it is compreised of all unique characters.  
+For example, the string `'abcde'` has all unique characters and should return `true`. The string `'aabcde'` contains duplicate characters and should return `false`.
+
+**Source**: [uniq_chars.js](src/uniq_chars.js)  
+**Test**: [uniq_chars_test.js](test/uniq_chars_test.js)
