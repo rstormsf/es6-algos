@@ -1,5 +1,5 @@
 ##JavaScript Algorithms
-
+[![CircleCI](https://circleci.com/gh/rstormsf/es6-algos.svg?style=svg&circle-token=9bba501f11f0b4b9edf8291035ec54321d6ab21c)]
 # Arrays
 ## Anagram check
   Problem  
